@@ -4,7 +4,7 @@ Arabidopsis-Stomata-Aperture-Prediction
 ASAP is a simple program based on artificial intelligence designed to detect stomata and measure stomatal aperture from microscopy images.
 
 
-Requirements (only first use)
+Requirements (first use only)
 
 The use of Anaconda is recommended (a Python distribution with all necessary tools included).
 1. Download and install Anaconda from: https://www.anaconda.com/download
@@ -12,7 +12,7 @@ The use of Anaconda is recommended (a Python distribution with all necessary too
 3. After installation, open the Anaconda Prompt (Windows) or a terminal (Linux).
 
 
-Installation (only first use)
+Installation (first use only)
 
 1. Download this repository from GitHub: Click on Code → Download ZIP. Extract the folder to a location of your choice (e.g. Documents/ASAP).
 2. Create a new environment in Anaconda and install the required libraries:
