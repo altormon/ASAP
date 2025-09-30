@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 Usage
 1. Inside the ASAP folder, place all the images you want to analyze inside the Input folder.
-2. Run the inference script using the pre-trained model (stomata_model.pt is already included):
+2. Run the inference script (F6) using the pre-trained model (stomata_model.pt is already included):
 
 cd %USERPROFILE%\Documents\ASAP
 
@@ -37,9 +37,12 @@ conda activate asap
 
 python F6_ASAP_Inference.py
 
-3. The program will automatically process all images inside the Input folder. Results will be saved in a new folder called Results, including a spreadsheet (Excel format) with aperture measurements and processed images with detected stomata highlighted and numbered.
+3. The program will automatically process all images inside the Input folder. Results will be saved in a new folder called Results, including a spreadsheet (Excel format) with aperture and density measurements, and processed images with detected stomata highlighted and numbered.
+4. Alternatively, cropped stomatal images can be used to measure only the stomatal aperture. In that case, run the stomata inference script (F7):
+
+python F7_ASAP_Inference_Stomata.py
 
 
 Notes
 
-Only F6_ASAP_Inference.py is needed to analyze new images. The other scripts (F3, F4, F5) are used for model training and are not necessary unless you want to retrain the AI model. Make sure all input images are clear and properly focused for best results.
+Only F6_ASAP_Inference.py is needed to analyze new images (or F7_ASAP_Inference_Stomata.py for cropped stomatal images). The other scripts (F3, F4, F5) are used for model training and are not necessary unless you want to retrain the AI model. Make sure all input images are clear and properly focused for best results.
