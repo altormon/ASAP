@@ -15,7 +15,8 @@ The use of Anaconda is recommended (a Python distribution with all necessary too
 Installation (first use only)
 
 1. Download this repository from GitHub: Click on Code → Download ZIP. Extract the folder to a location of your choice (e.g. Documents/ASAP).
-2. Create a new environment in Anaconda and install the required libraries:
+2. Download the model (https://github.com/altormon/ASAP/releases/download/v1.0/stomata_model.pt). Insert the model in the ASAP folder.
+3. Create a new environment in Anaconda and install the required libraries:
 
 cd %USERPROFILE%\Documents\ASAP
 
