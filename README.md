@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 
 Usage
-1. Inside the ASAP folder, create a new folder called Input. Place all the images you want to analyze inside this folder.
+1. Inside the ASAP folder, place all the images you want to analyze inside the Input folder.
 2. Run the inference script using the pre-trained model (stomata_model.pt is already included):
 
 cd %USERPROFILE%\Documents\ASAP
