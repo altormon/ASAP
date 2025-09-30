@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Stomata']
+
+roboflow:
+  workspace: atomon3space1
+  project: arabidopsis-40x-stomata-density
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/atomon3space1/arabidopsis-40x-stomata-density/dataset/2
