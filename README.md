@@ -16,7 +16,7 @@ Installation (first use only)
 
 1. Download this repository from GitHub: Click on Code → Download ZIP. Extract the folder to a location of your choice (e.g. Documents/ASAP).
 2. Download the model (https://github.com/altormon/ASAP/releases/download/v1.0/stomata_model.pt). Insert the model in the ASAP folder.
-3. Create a new environment in Anaconda and install the required libraries:
+3. Create a new environment in Anaconda (open "Anaconda Prompt") and install the required libraries:
 
 cd %USERPROFILE%\Documents\ASAP
 
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 Usage
 1. Inside the ASAP folder, place all the images you want to analyze inside the Input folder.
-2. Run the inference script (F6) using the pre-trained model (stomata_model.pt is already included):
+2. Run (in "Anaconda Prompt") the inference script (F6) using the pre-trained model (stomata_model.pt is already included):
 
 cd %USERPROFILE%\Documents\ASAP
 
@@ -38,7 +38,7 @@ conda activate asap
 python F6_ASAP_Inference.py
 
 3. The program will automatically process all images inside the Input folder. Results will be saved in a new folder called Results, including a spreadsheet (Excel format) with aperture and density measurements, and processed images with detected stomata highlighted and numbered.
-4. Alternatively, cropped stomatal images can be used to measure only the stomatal aperture. In that case, run the stomata inference script (F7):
+4. Alternatively, cropped stomatal images can be used to measure only the stomatal aperture. In that case, run (in "Anaconda Prompt") the stomata inference script (F7):
 
 python F7_ASAP_Inference_Stomata.py
 
